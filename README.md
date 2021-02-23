@@ -4,10 +4,17 @@ Install dependencies with:
 yarn
 ```
 ---
-Run client with command at root of project
+Run server and client with command at root of project
 ```shell
-yarn start
+yarn client:dev
+```
+or
+```shell
+yarn server:dev
+```
+or both with
+```shell
+yarn dev
 ```
 ---
-Client runs on `localhost:3000`
-
+Client runs on `localhost:3000` and Server runs on `localhost:3001`
